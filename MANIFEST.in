@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include procuremonkey *.css
+recursive-include procuremonkey *.csv
+recursive-include procuremonkey *.html
+recursive-include procuremonkey *.ico
+recursive-include procuremonkey *.js
+recursive-include procuremonkey *.json
+recursive-include procuremonkey *.md
+recursive-include procuremonkey *.png
+recursive-include procuremonkey *.py
+recursive-include procuremonkey *.svg
+recursive-include procuremonkey *.txt
+recursive-exclude procuremonkey *.pyc
