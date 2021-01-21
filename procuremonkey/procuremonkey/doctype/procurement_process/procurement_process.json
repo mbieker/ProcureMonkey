@@ -1,0 +1,74 @@
+{
+ "allow_rename": 1,
+ "autoname": "format:{short_name}-{technical_contact}",
+ "creation": "2021-01-21 22:52:37.218651",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "short_name",
+  "description",
+  "estimated_cost",
+  "technical_contact",
+  "pre_approver",
+  "budget"
+ ],
+ "fields": [
+  {
+   "fieldname": "short_name",
+   "fieldtype": "Data",
+   "label": "Short Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "estimated_cost",
+   "fieldtype": "Currency",
+   "label": "Estimated Cost"
+  },
+  {
+   "fieldname": "technical_contact",
+   "fieldtype": "Link",
+   "label": "Technical Contact",
+   "options": "User"
+  },
+  {
+   "fieldname": "pre_approver",
+   "fieldtype": "Link",
+   "label": "Pre Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Select",
+   "label": "Budget",
+   "options": "Spaan\nAlbrecht"
+  }
+ ],
+ "modified": "2021-01-21 23:40:43.256928",
+ "modified_by": "Administrator",
+ "module": "ProcureMonkey",
+ "name": "Procurement Process",
+ "owner": "martin.bieker@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1
+}
